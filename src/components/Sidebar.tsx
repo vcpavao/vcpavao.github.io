@@ -1,5 +1,5 @@
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import { Avatar, Box, Link, Typography } from "@mui/material";
+import { Avatar, Box, Link, Stack, Typography } from "@mui/material";
 
 export default function Sidebar() {
   return (
@@ -20,18 +20,14 @@ export default function Sidebar() {
         sx={{ width: 96, height: 96 }}
       />
       <Box sx={{ fontSize: 22, fontWeight: 600 }}>Victor Pavao</Box>
-      <Typography sx={{ fontSize: 14 }}>
-       M.S. in GIS Technology
-      </Typography>
-      <Typography sx={{ fontSize: 14 }}>
-         B.S. in Computer Science
-      </Typography>
-      <Link color="inherit" href="https://www.linkedin.com/in/vcpavao/">
-        <Typography>
-          <LinkedInIcon />
-          {"LinkedIn"}
-        </Typography>
-      </Link>
+      <Typography sx={{ fontSize: 14 }}>M.S. in GIS Technology</Typography>
+      <Typography sx={{ fontSize: 14 }}>B.S. in Computer Science</Typography>
+      <Stack sx={{ my: 1}} alignItems="center" color="secondary" direction="row" gap={1}>
+        <LinkedInIcon color="secondary" />
+        <Link color="secondary" underline="none" href="https://www.linkedin.com/in/vcpavao/">
+          LinkedIn
+        </Link>
+      </Stack>
     </Box>
   );
 }
