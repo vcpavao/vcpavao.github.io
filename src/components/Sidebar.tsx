@@ -16,7 +16,7 @@ export default function Sidebar() {
     >
       <Avatar
         alt="Victor Pavao"
-        src="/public/x6qi1dy9.jpg"
+        src="/x6qi1dy9.jpg"
         sx={{ width: 96, height: 96 }}
       />
       <Box sx={{ fontSize: 22, fontWeight: 600 }}>Victor Pavao</Box>

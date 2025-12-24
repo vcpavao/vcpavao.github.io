@@ -10,7 +10,7 @@ const projects = [
       "organizations can edit their proprietary data on OpenStreetMap. I taught tagging practices, uploading GPX traces, " +
       "JOSM, and how to get OSM trail data in a shapefile for ArcGIS projects.",
     link: "Download the presentation here",
-    linkUrl: "",
+    linkUrl: "https://docs.google.com/presentation/d/1vE-jAovHeDEWIDLko8_b-wEPY78aouFvf_0qGhKc8Sc/edit?usp=sharing",
   },
   {
     title: "Containerizing geospatial workflows using Podman",
@@ -39,8 +39,8 @@ const projects = [
     body:
       "While working as a Research Assistant for the Massachusetts DEP Well Driller Program, I authored a " +
       "Jupyter Notebook script and a Python toolbox for estimating which tax parcels in the state contain active, " +
-      "domestic wells. The script and toolbox follow a detailed methodology based on tax parcel attributes such as" +
-      "property use code, building style, and proximity to a Public Water System. I also created and am helping" +
+      "domestic wells. The script and toolbox follow a detailed methodology based on tax parcel attributes such as " +
+      "property use code, building style, and proximity to a Public Water System. I also created and am helping " +
       "administer the ArcGIS Online map for displaying the relevant data for project stakeholders.",
     link: "View my scripts here",
     linkUrl:
