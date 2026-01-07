@@ -9,7 +9,7 @@ const projects = [
       "In December 2025, I gave a presentation to Kestrel Land Trust's stewardship team on how conservation " +
       "organizations can edit their proprietary data on OpenStreetMap. I taught tagging practices, uploading GPX traces, " +
       "JOSM, and how to get OSM trail data in a shapefile for ArcGIS projects.",
-    link: "Download the presentation here",
+    link: "View the slides here",
     linkUrl: "https://docs.google.com/presentation/d/1vE-jAovHeDEWIDLko8_b-wEPY78aouFvf_0qGhKc8Sc/edit?usp=sharing",
   },
   {
@@ -20,11 +20,8 @@ const projects = [
       "but my computer unable to run OpenShift clusters locally, and ROSA (Red Hat OpenShift on AWS) did not have a " +
       "free option for students. I discuss these roadblocks in my presentation, which was my term project for the " +
       "Spatial Databases course.",
-    link: "View the presentation here",
-    linkUrl: "View the presentation here",
-    downloadText: "View the slides here",
-    downloadUrl:
-      "https://docs.google.com/presentation/d/1QLEg_zCBflH3IdzT91Cjw1UvC863RzqfL5ME2t5VYfg/edit?usp=sharing",
+    link: "View the slides here",
+    linkUrl: "https://docs.google.com/presentation/d/1QLEg_zCBflH3IdzT91Cjw1UvC863RzqfL5ME2t5VYfg/edit?usp=sharing"
   },
   {
     title: "Full-stack trails application",
@@ -45,6 +42,8 @@ const projects = [
     link: "View my scripts here",
     linkUrl:
       "https://github.com/vcpavao/arcpy-boilerplate/blob/main/massdep_wells_estimates/Wells_Estimates.ipynb",
+    downloadText: "",
+    downloadUrl: ""
   },
 ];
 
@@ -88,7 +87,7 @@ export default function Projects() {
               ) : (
                 <></>
               )}
-              {proj.downloadUrl ? (
+              {proj?.downloadUrl ? (
                 <Stack
                   alignItems="center"
                   direction="row"
@@ -100,9 +99,9 @@ export default function Projects() {
                     underline="hover"
                     variant="inherit"
                     color="secondary"
-                    href={proj.downloadUrl}
+                    href={proj?.downloadUrl}
                   >
-                    {proj.downloadText}
+                    {proj?.downloadText}
                   </Link>
                 </Stack>
               ) : (

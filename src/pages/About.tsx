@@ -9,7 +9,7 @@ export default function About() {
       </Grid>
       <Grid size={6} sx={{ p: 4 }}>
         <Typography sx={{ fontSize: 18 }}>
-          Hello! Welcome to my page. I am a GIS Software Engineer who is graduating
+          Hello! Welcome to my page. I am a GIS Developer who is graduating
           {' '}with a Master's in Geographic Information Science Technology (GIST) at
           {' '}University of Massachusetts, Amherst. Here I'll showcase some of my projects,
           old and new. I am interested in applying modern software engineering and database

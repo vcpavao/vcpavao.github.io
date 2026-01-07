@@ -4,6 +4,7 @@ import MainLayout from "./layouts/MainLayout";
 
 import About from "./pages/About";
 import Projects from "./pages/Projects";
+import Resume from "./pages/Resume";
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
       <Route element={<MainLayout />}>
         <Route path="/" element={<About />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/resume" element={<Resume />} />
       </Route>
     </Routes>
   );

@@ -13,7 +13,6 @@ export default function Header() {
           <Button component={RouterLink} color="inherit" to="/">Home</Button>
           <Button component={RouterLink} color="inherit" to="/projects">Projects</Button>
           <Button component={RouterLink} color="inherit" to="/resume">Resume</Button>
-          <Button component={RouterLink} color="inherit" to="/education">Education</Button>
         </Toolbar>
       </AppBar>
     </Box>
