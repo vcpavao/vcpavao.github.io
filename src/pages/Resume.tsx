@@ -1,5 +1,5 @@
 export default function Resume() {
-  const resumeUrl = `${import.meta.env.BASE_URL}pavaoresumeJan2026.pdf`;
+  const resumeUrl = `${import.meta.env.BASE_URL}Pavao-Resume-Apr2026-1.pdf`;
 
   return (
     <main style={{ padding: 16 }}>
