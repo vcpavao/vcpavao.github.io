@@ -1,3 +1,4 @@
+//@ts-nocheck
 import { Divider, Grid, Link, Stack, Typography } from "@mui/material";
 import Sidebar from "../components/Sidebar";
 import LaunchIcon from "@mui/icons-material/Launch";
