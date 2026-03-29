@@ -41,7 +41,7 @@ const projects = [
       "administer the ArcGIS Dashboard and other ArcGIS Online maps for displaying the relevant data to project stakeholders.",
     link: "View my scripts here",
     linkUrl:
-      "https://github.com/vcpavao/arcpy-boilerplate/blob/main/massdep_wells_estimates/Wells_Estimates.ipynb",
+      "https://github.com/vcpavao/gis-portfolio/blob/main/massdep_wells_estimates/Wells_Estimates.ipynb",
     downloadText: "",
     downloadUrl: ""
   },
